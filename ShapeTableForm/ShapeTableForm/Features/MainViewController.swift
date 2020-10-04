@@ -12,10 +12,12 @@ class MainViewController: UIViewController {
     lazy var tableView: UITableView = {
         let table = UITableView(frame: .zero)
         //TODO: Set delegate and dataSource
-        
         table.translatesAutoresizingMaskIntoConstraints = false
+
         return table
     }()
+    
+    let foodFields = FoodFormFields(name: "Hamburguer", price: 15, doneIn: 20)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,8 +44,3 @@ extension MainViewController: ViewCodable {
         navigationController?.navigationBar.prefersLargeTitles = true
     }
 }
-
-
-
-
-
