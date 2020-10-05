@@ -11,6 +11,8 @@
 		6C4670E3252B374D00DC15F7 /* PictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C4670E1252B374D00DC15F7 /* PictureTableViewCell.xib */; };
 		6C4670F1252B3ACC00DC15F7 /* AttributeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4670EF252B3ACC00DC15F7 /* AttributeTableViewCell.swift */; };
 		6C4670F2252B3ACC00DC15F7 /* AttributeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C4670F0252B3ACC00DC15F7 /* AttributeTableViewCell.xib */; };
+		6C4670F9252B3EC800DC15F7 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4670F7252B3EC800DC15F7 /* ButtonTableViewCell.swift */; };
+		6C4670FA252B3EC800DC15F7 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C4670F8252B3EC800DC15F7 /* ButtonTableViewCell.xib */; };
 		6C89DB112528BB8C007FBFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89DB102528BB8C007FBFFF /* AppDelegate.swift */; };
 		6C89DB132528BB8C007FBFFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89DB122528BB8C007FBFFF /* SceneDelegate.swift */; };
 		6C89DB152528BB8C007FBFFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89DB142528BB8C007FBFFF /* MainViewController.swift */; };
@@ -47,6 +49,8 @@
 		6C4670E1252B374D00DC15F7 /* PictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureTableViewCell.xib; sourceTree = "<group>"; };
 		6C4670EF252B3ACC00DC15F7 /* AttributeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeTableViewCell.swift; sourceTree = "<group>"; };
 		6C4670F0252B3ACC00DC15F7 /* AttributeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeTableViewCell.xib; sourceTree = "<group>"; };
+		6C4670F7252B3EC800DC15F7 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		6C4670F8252B3EC800DC15F7 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
 		6C89DB0D2528BB8C007FBFFF /* ShapeTableForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeTableForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89DB102528BB8C007FBFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89DB122528BB8C007FBFFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		6C4670D4252B36E400DC15F7 /* CommonCells */ = {
 			isa = PBXGroup;
 			children = (
+				6C4670F6252B3EA100DC15F7 /* ButtonTableViewCell */,
 				6C4670E8252B3A9600DC15F7 /* AttributeTableViewCell */,
 				6C4670E7252B3A6B00DC15F7 /* PictureTableViewCell */,
 			);
@@ -125,6 +130,15 @@
 				6C4670F0252B3ACC00DC15F7 /* AttributeTableViewCell.xib */,
 			);
 			path = AttributeTableViewCell;
+			sourceTree = "<group>";
+		};
+		6C4670F6252B3EA100DC15F7 /* ButtonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C4670F7252B3EC800DC15F7 /* ButtonTableViewCell.swift */,
+				6C4670F8252B3EC800DC15F7 /* ButtonTableViewCell.xib */,
+			);
+			path = ButtonTableViewCell;
 			sourceTree = "<group>";
 		};
 		6C89DB042528BB8B007FBFFF = {
@@ -336,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C4670E3252B374D00DC15F7 /* PictureTableViewCell.xib in Resources */,
+				6C4670FA252B3EC800DC15F7 /* ButtonTableViewCell.xib in Resources */,
 				6C4670F2252B3ACC00DC15F7 /* AttributeTableViewCell.xib in Resources */,
 				6CE654672528EA77003138F6 /* Main.storyboard in Resources */,
 				6C89DB1D2528BB90007FBFFF /* LaunchScreen.storyboard in Resources */,
@@ -371,6 +386,7 @@
 				6C89DB132528BB8C007FBFFF /* SceneDelegate.swift in Sources */,
 				6C4670E2252B374D00DC15F7 /* PictureTableViewCell.swift in Sources */,
 				6C903135252A36F600EBB723 /* Food.swift in Sources */,
+				6C4670F9252B3EC800DC15F7 /* ButtonTableViewCell.swift in Sources */,
 				6C903124252A33B100EBB723 /* FormViewModelFactoryProtocol.swift in Sources */,
 				6C90311C252A2F8100EBB723 /* FormViewModelItemProtocol.swift in Sources */,
 			);
