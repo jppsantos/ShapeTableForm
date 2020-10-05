@@ -19,6 +19,7 @@ struct Attribute {
     var key: String
     var value: String
     var keyboardType: UIKeyboardType = .default
+    var userInteractionEnable = true
 }
 
 extension Attribute {
