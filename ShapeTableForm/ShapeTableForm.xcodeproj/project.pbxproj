@@ -15,6 +15,7 @@
 		6C4670FA252B3EC800DC15F7 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C4670F8252B3EC800DC15F7 /* ButtonTableViewCell.xib */; };
 		6C4670FF252B418B00DC15F7 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4670FE252B418B00DC15F7 /* Attribute.swift */; };
 		6C467104252B442D00DC15F7 /* FormViewModelItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C467103252B442D00DC15F7 /* FormViewModelItemType.swift */; };
+		6C467109252B4AE300DC15F7 /* FormViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C467108252B4AE300DC15F7 /* FormViewModelFactory.swift */; };
 		6C89DB112528BB8C007FBFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89DB102528BB8C007FBFFF /* AppDelegate.swift */; };
 		6C89DB132528BB8C007FBFFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89DB122528BB8C007FBFFF /* SceneDelegate.swift */; };
 		6C89DB152528BB8C007FBFFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C89DB142528BB8C007FBFFF /* MainViewController.swift */; };
@@ -55,6 +56,7 @@
 		6C4670F8252B3EC800DC15F7 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
 		6C4670FE252B418B00DC15F7 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
 		6C467103252B442D00DC15F7 /* FormViewModelItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModelItemType.swift; sourceTree = "<group>"; };
+		6C467108252B4AE300DC15F7 /* FormViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModelFactory.swift; sourceTree = "<group>"; };
 		6C89DB0D2528BB8C007FBFFF /* ShapeTableForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeTableForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C89DB102528BB8C007FBFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C89DB122528BB8C007FBFFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				6C4670D4252B36E400DC15F7 /* CommonCells */,
 				6C467103252B442D00DC15F7 /* FormViewModelItemType.swift */,
+				6C467108252B4AE300DC15F7 /* FormViewModelFactory.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				6C89DB152528BB8C007FBFFF /* MainViewController.swift in Sources */,
 				6CE654502528E320003138F6 /* ViewCodable.swift in Sources */,
 				6C4670F1252B3ACC00DC15F7 /* AttributeTableViewCell.swift in Sources */,
+				6C467109252B4AE300DC15F7 /* FormViewModelFactory.swift in Sources */,
 				6C89DB112528BB8C007FBFFF /* AppDelegate.swift in Sources */,
 				6C89DB132528BB8C007FBFFF /* SceneDelegate.swift in Sources */,
 				6C4670E2252B374D00DC15F7 /* PictureTableViewCell.swift in Sources */,

@@ -22,7 +22,7 @@ struct FormViewModelPictureItem: FormViewModelItemProtocol {
     }
     
     var pictureImage: UIImage
-    var pictureLabel: String?
+    var pictureLabel: String? = nil
 }
 
 struct FormViewModelAttributeItem: FormViewModelItemProtocol {

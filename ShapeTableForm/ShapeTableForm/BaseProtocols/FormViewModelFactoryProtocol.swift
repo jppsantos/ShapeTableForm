@@ -7,7 +7,8 @@
 
 import Foundation
 
+//This protocol will be used to start our factory
 protocol FormViewModelFactoryProtocol {
     var items: [FormViewModelItemProtocol] { get set }
-    func createForm() -> FormViewModelFactoryProtocol
+    func createForm() -> FormViewModelFactoryProtocol?
 }
