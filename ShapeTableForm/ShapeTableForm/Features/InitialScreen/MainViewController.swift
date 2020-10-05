@@ -17,7 +17,7 @@ class MainViewController: UIViewController {
         return table
     }()
     
-    let foodFields = FoodFormFields(name: "Hamburguer", price: 15, doneIn: 20)
+//    let foodFields = FoodFormFields(name: "Hamburguer", price: 15, doneIn: 20)
     
     override func viewDidLoad() {
         super.viewDidLoad()

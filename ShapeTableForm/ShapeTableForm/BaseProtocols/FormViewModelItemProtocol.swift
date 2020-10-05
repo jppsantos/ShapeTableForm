@@ -18,7 +18,7 @@ protocol FormViewModelItemProtocol {
     var rowCount: Int { get }
 }
 
-extension FormViewModelItemType {
+extension FormViewModelItemProtocol {
     var rowCount: Int {
         return 1
     }
